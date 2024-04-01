@@ -23,12 +23,4 @@ pipeline {
             }
         }
     }
-    post {
-        success {
-            echo 'Git Bisect completed successfully!'
-        }
-        failure {
-            echo 'Git Bisect failed!'
-        }
-    }
 }
